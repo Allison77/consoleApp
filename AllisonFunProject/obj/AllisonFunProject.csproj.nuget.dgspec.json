@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allison.redding\\Source\\Repos\\Allison77\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
+    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allison.redding\\Source\\Repos\\Allison77\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
+    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allison.redding\\Source\\Repos\\Allison77\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "projectUniqueName": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
         "projectName": "AllisonFunProject",
-        "projectPath": "C:\\Users\\allison.redding\\Source\\Repos\\Allison77\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "projectPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
         "packagesPath": "C:\\Users\\allison.redding\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allison.redding\\Source\\Repos\\Allison77\\consoleApp\\AllisonFunProject\\obj\\",
+        "outputPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
