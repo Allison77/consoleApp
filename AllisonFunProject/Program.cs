@@ -16,7 +16,7 @@ namespace AllisonFunProject
 
             if (test == "a")
             {
-                Console.WriteLine("You've selected numbers 1-10");
+                Console.WriteLine("You've selected numbers 1-10");//fiurehgiurhigrgrihgoi
             }
 
             else if (test == "b")
