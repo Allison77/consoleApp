@@ -1,0 +1,11 @@
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.deps.json
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.runtimeconfig.json
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.runtimeconfig.dev.json
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.dll
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.pdb
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.csprojAssemblyReference.cache
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.csproj.CoreCompileInputs.cache
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.AssemblyInfoInputs.cache
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.AssemblyInfo.cs
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.dll
+C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.pdb
