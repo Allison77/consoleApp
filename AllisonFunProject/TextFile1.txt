@@ -1,0 +1,111 @@
+﻿Given the console application is opened
+when you run it
+when it says "Hello World"
+then change it to "Please select an option:"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+then add the four following options, **each on a new line 
+
+(a) numbers 1-10
+(b) numbers 10-20
+(c) numbers 20-30
+(d) numbers 30-40
+
+so that the display is something to the effect of
+
+Please select an option:
+(a) numbers 1-10
+(b) numbers 10-20
+(c) numbers 20-30
+(d) numbers 30-40
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in "a" and presses enter   **(if a is selected)
+then print out "you've selected numbers 1-10"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in "b" and presses enter   **(else if b is selected)
+then print out "you've selected numbers 10-20"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in "c" and presses enter   **(else if c is selected)
+then print out "you've selected numbers 2-30"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in "d" and presses enter   **(else d is selected)
+then print out "you've selected numbers 30-40"
+
+//////////////////////////////// end of task 1 ///////////////////////
+
+**As a user, I want to pick a number**
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in a selection and presses enter
+when print out "you've selected numbers $number-$number" is displayed
+then ask to "Please pick a number between "$number" and "$number"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in a selection and presses enter
+when print out "you've selected numbers $number-$numbers" is displayed
+when asked to "Please pick a number between "$number" and "$number"
+then read the users number they entered
+then display "you've chosen $number"
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in a selection and presses enter
+when print out "you've selected numbers $number-$numbers" is displayed
+when asked to "Please pick a number between "$number" and "$number"
+then read the users number they entered
+then display "you've chosen $number"
+
+
+
+BONUS:
+Validation ideas
+Given the app options
+When the user types in option "A" (uppercase)
+then ensure that option a is still selected (hint: toLowercase())
+
+Given the app options
+When the user types in anything that isn't the single letter options
+then produce a message that says "please select a valid option"
+then reprint the please select message with options
+
+/////////////////////////
+
+
+Given the console application is opened
+when you run it
+when it says "Please select an option:"
+when the user types in a selection and presses enter
+when print out "you've selected numbers $number-$numbers" is displayed
+when asked to "Please pick a number between "$number" and "$number"
+then read the users number they entered
+then display "that is not a valid entry" if the entry is anything but an option in the chosen range
+then ask the previoius question again
+(**hint this is a good place to see the similarities and differences with if/else and loops.  You can use a for or foreach loop to cycle through possibilities)
+
+
+
+
+
+
+
+
+
