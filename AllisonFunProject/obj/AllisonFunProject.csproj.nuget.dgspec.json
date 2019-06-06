@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
+    "C:\\Source\\Personal\\Allison\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
+    "C:\\Source\\Personal\\Allison\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "projectUniqueName": "C:\\Source\\Personal\\Allison\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
         "projectName": "AllisonFunProject",
-        "projectPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
-        "packagesPath": "C:\\Users\\allison.redding\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\obj\\",
+        "projectPath": "C:\\Source\\Personal\\Allison\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "packagesPath": "C:\\Users\\brian.atchley\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\Personal\\Allison\\consoleApp\\AllisonFunProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\allison.redding\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian.atchley\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
