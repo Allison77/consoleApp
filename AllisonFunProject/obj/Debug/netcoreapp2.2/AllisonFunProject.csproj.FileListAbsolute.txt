@@ -9,3 +9,14 @@ C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\De
 C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.AssemblyInfo.cs
 C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.dll
 C:\Users\allison.redding\source\repos\AllisonFunProject\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.pdb
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.csprojAssemblyReference.cache
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.csproj.CoreCompileInputs.cache
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.AssemblyInfoInputs.cache
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.AssemblyInfo.cs
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.dll
+C:\Source\Personal\consoleApp\AllisonFunProject\obj\Debug\netcoreapp2.2\AllisonFunProject.pdb
+C:\Source\Personal\consoleApp\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.deps.json
+C:\Source\Personal\consoleApp\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.runtimeconfig.json
+C:\Source\Personal\consoleApp\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.runtimeconfig.dev.json
+C:\Source\Personal\consoleApp\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.dll
+C:\Source\Personal\consoleApp\AllisonFunProject\bin\Debug\netcoreapp2.2\AllisonFunProject.pdb
