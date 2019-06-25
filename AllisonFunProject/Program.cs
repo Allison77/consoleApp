@@ -6,33 +6,64 @@ namespace AllisonFunProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
             Console.WriteLine("Please select an option:");
             Console.WriteLine("(a) numbers 1-10");
             Console.WriteLine("(b) numbers 10-20");
             Console.WriteLine("(c) numbers 20-30");
             Console.WriteLine("(d) numbers 30-40");
             // test was just created as a test and can be removed.  Console.Readline() is that "action" of reading the input
-            var lETTERSELECTED = Console.ReadLine();
-
-            if (lETTERSELECTED == "a")
+            var letterSelected = Console.ReadLine();            
+            
+            if (letterSelected == "a")
             {
                 Console.WriteLine("You've selected numbers 1-10");
-                //test
+                Console.WriteLine("Please pick a number between 1 and 10");
+                string input = Console.ReadLine();
+                int number;
+                Int32.TryParse(input, out number);
+                Console.WriteLine("You've chosen "  + input);
+                               
             }
 
-            else if (lETTERSELECTED == "b")
+            else if (letterSelected == "b")
             {
                 Console.WriteLine("You've selected numbers 10-20");
+                Console.WriteLine("Please pick a nubmer between 10 and 20");
+                string input = Console.ReadLine();
+                int number;
+                Int32.TryParse(input, out number);
+                Console.WriteLine("You've chosen " + input);
             }
 
-            else if (lETTERSELECTED == "c")
+            else if (letterSelected == "c")
             {
                 Console.WriteLine("You've selected numbers 20-30");
+                Console.WriteLine("Please pick a number between 20 and 30");
+                string input = Console.ReadLine();
+                int number;
+                Int32.TryParse(input, out number);
+                Console.WriteLine("You've chosen " + input);
             }
 
-            else if (lETTERSELECTED == "d")
+            else if (letterSelected == "d")
             {
                 Console.WriteLine("You've selected numbers 30-40");
+                Console.WriteLine("Please pick a number between 30 and 40");
+                string input = Console.ReadLine();
+                int number;
+                Int32.TryParse(input, out number);
+                Console.WriteLine("You've chosen " + input);
+            }
+
+            else
+            {
+                Console.WriteLine("Please select a valid option");
+                Console.WriteLine("Please select an option:");
+                Console.WriteLine("(a) numbers 1-10");
+                Console.WriteLine("(b) numbers 10-20");
+                Console.WriteLine("(c) numbers 20-30");
+                Console.WriteLine("(d) numbers 30-40");
             }
             // variables (like var test above) can be named almost anything.  Try to make them as descriptive as possible.  Use camel casing when naming.
             // This simply mean capitalizing all first letter of words except the first so "I am the greatest" would be "iAmTheGreatest"
@@ -41,17 +72,18 @@ namespace AllisonFunProject
             //then set it equal to the readlinefunction
             //BUT, that only brings in the EXACT value INCLUDING CAPITALS
             // create another variable and name it something similar to the first with the addition of letting you know it will be the value in lower case
-            // then set it equal to the other variable with the lowercase method                 
+            // then set it equal to the other variable with the lowercase method     I'M CONFUSED ON WHAT YOU WANT ME TO DO HERE            
 
 
-            String variable = lETTERSELECTED.ToLower();
+            String variable = letterSelected.ToLower();
             Console.WriteLine($"Lowercase: {variable}");
 
-            if (lETTERSELECTED != "a" && lETTERSELECTED != "b" && lETTERSELECTED != "c" && lETTERSELECTED != "d")
-            {
-                Console.WriteLine("Please select a valid option");
-            }
+            //if (letterSelected != "a" && letterSelected != "b" && letterSelected != "c" && letterSelected != "d")
+            //{
+            //    Console.WriteLine("Please select a valid option");
+            //}
 
+            
         }
     }
 }
