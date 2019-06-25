@@ -1,4 +1,17 @@
-﻿Given the console application is opened
+﻿
+///////////////////////////////////////////////////////
+
+
+As a new developer and user, I want an application where I can select a range of numbers to narrow down the number I want,
+then I want to select a number within that range,
+then I want to see the mathmatical results of that number being added, subtracted, multiplied, and divided by 
+another number of my choice
+
+///////////////////////////////////////////////////////////////
+
+
+
+Given the console application is opened
 when you run it
 when it says "Hello World"
 then change it to "Please select an option:"
@@ -63,7 +76,6 @@ when the user types in a selection and presses enter
 when print out "you've selected numbers $number-$numbers" is displayed
 when asked to "Please pick a number between "$number" and "$number"
 then read the users number they entered
-then display "you've chosen $number"
 
 Given the console application is opened
 when you run it
@@ -71,9 +83,26 @@ when it says "Please select an option:"
 when the user types in a selection and presses enter
 when print out "you've selected numbers $number-$numbers" is displayed
 when asked to "Please pick a number between "$number" and "$number"
-then read the users number they entered
+when read the users number they entered
 then display "you've chosen $number"
 
+
+//////////////////////////////////// end of task 2 ///////////////////////////////////
+
+Given task 1 is complete
+when ran and number you chose is displayed
+then ask "Would you like to see the results of this number compared to another with different mathematical expressions?"
+
+Given previous question asked,
+when answer is "no"
+then simply display "Ok, have a good day!"
+then return to the beginning options
+
+Given previous question asked,
+when answer is "yes",
+prompt user to select another number between 1 and 100
+
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 BONUS:
