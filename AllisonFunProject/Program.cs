@@ -73,7 +73,6 @@ namespace AllisonFunProject
 
                 if (answerEntered == "no")
                 {
-                    Console.WriteLine("No");
                     Console.WriteLine("Ok, have a good day!");
 
                 }

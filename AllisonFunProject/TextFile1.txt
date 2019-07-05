@@ -89,13 +89,13 @@ THEN DISPLAY "YOU'VE CHOSEN $NUMBER"
 
 //////////////////////////////////// end of task 2 ///////////////////////////////////
 
-Given task 1 is complete
-when ran and number you chose is displayed
-then ask "Would you like to see the results of this number compared to another with different mathematical expressions?"
+GIVEN TASK 1 IS COMPLETE
+WHEN RAN AND NUMBER YOU CHOSE IS DISAPLYED
+THEN ASK "WOULD YOU LIKE TO SEE THE RESULTS OF THIS NUMBER COMPARED TO ANOTHER WITH DIFFERENT MATHEMATICAL EXPRESSIONS?" 
 
-Given previous question asked,
-when answer is "no"
-then simply display "Ok, have a good day!"
+GIVEN PREVIOUS QUESTION ASKED,
+WHEN ANSWER IS "NO"
+THEN SIMPLY DISPLAY "OK, HAVE A GOOD DAY!"
 then return to the beginning options
 
 Given previous question asked,
