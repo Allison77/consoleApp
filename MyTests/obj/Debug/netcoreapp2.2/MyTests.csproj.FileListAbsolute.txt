@@ -1,0 +1,17 @@
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\MyTests.deps.json
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\MyTests.runtimeconfig.json
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\MyTests.runtimeconfig.dev.json
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\MyTests.dll
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\MyTests.pdb
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\AllisonFunProject.dll
+C:\Source\Personal\consoleApp\MyTests\bin\Debug\netcoreapp2.2\AllisonFunProject.pdb
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.csprojAssemblyReference.cache
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.csproj.CoreCompileInputs.cache
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.AssemblyInfoInputs.cache
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.AssemblyInfo.cs
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.csproj.CopyComplete
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.dll
+C:\Source\Personal\consoleApp\MyTests\obj\Debug\netcoreapp2.2\MyTests.pdb
