@@ -11,91 +11,91 @@ another number of my choice
 
 
 
-Given the console application is opened
-when you run it
-when it says "Hello World"
-then change it to "Please select an option:"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "HELLO WORLD"
+THEN CHANGE IT TO "PLEASE SELECT AN OPTION:"
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-then add the four following options, **each on a new line 
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+THEN ADD THE FOUR FOLLOWING OPTIONS, **EACH ON A NEW LINE 
 
-(a) numbers 1-10
-(b) numbers 10-20
-(c) numbers 20-30
-(d) numbers 30-40
+(A) NUMBERS 1-10
+(B) NUMBERS 10-20
+(C) NUMBERS 20-30
+(D) NUMBERS 30-40
 
-so that the display is something to the effect of
+SO THAT THE DISPLAY IS SOMETHING TO THE EFFECT OF
 
-Please select an option:
-(a) numbers 1-10
-(b) numbers 10-20
-(c) numbers 20-30
-(d) numbers 30-40
+PLEASE SELECT AN OPTION:
+(A) NUMBERS 1-10
+(B) NUMBERS 10-20
+(C) NUMBERS 20-30
+(D) NUMBERS 30-40
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in "a" and presses enter   **(if a is selected)
-then print out "you've selected numbers 1-10"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN "A" AND PRESSES ENTER   **(IF A IS SELECTED)
+THEN PRINT OUT "YOU'VE SELECTED NUMBERS 1-10"
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in "b" and presses enter   **(else if b is selected)
-then print out "you've selected numbers 10-20"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN "B" AND PRESSES ENTER   **(ELSE IF B IS SELECTED)
+THEN PRINT OUT "YOU'VE SELECTED NUMBERS 10-20"
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in "c" and presses enter   **(else if c is selected)
-then print out "you've selected numbers 2-30"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN "C" AND PRESSES ENTER   **(ELSE IF C IS SELECTED)
+THEN PRINT OUT "YOU'VE SELECTED NUMBERS 20-30"
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in "d" and presses enter   **(else d is selected)
-then print out "you've selected numbers 30-40"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN "D" AND PRESSES ENTER   **(ELSE D IS SELECTED)
+THEN PRINT OUT "YOU'VE SELECTED NUMBERS 30-40"
 
 //////////////////////////////// end of task 1 ///////////////////////
 
 **As a user, I want to pick a number**
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in a selection and presses enter
-when print out "you've selected numbers $number-$number" is displayed
-then ask to "Please pick a number between "$number" and "$number"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN A SELECTION AND PRESSES ENTER
+WHEN PRINT OUT "YOU'VE SELECTED NUMBERS $NUMBER-$NUMBER" IS DISPLAYED
+THEN ASK TO "PLEASE PICK A NUMBER BETWEEN "$NUMBER" AND "$NUMBER"
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in a selection and presses enter
-when print out "you've selected numbers $number-$numbers" is displayed
-when asked to "Please pick a number between "$number" and "$number"
-then read the users number they entered
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN A SELECTION AND PRESSES ENTER
+WHEN PRINT OUT "YOU'VE SELECTED NUMBERS $NUMBER-$NUMBERS" IS DISPLAYED
+WHEN ASKED TO "PLEASE PICK A NUMBER BETWEEN "$NUMBER" AND "$NUMBER"
+THEN READ THE USERS NUMBER THEY ENTERED
 
-Given the console application is opened
-when you run it
-when it says "Please select an option:"
-when the user types in a selection and presses enter
-when print out "you've selected numbers $number-$numbers" is displayed
-when asked to "Please pick a number between "$number" and "$number"
-when read the users number they entered
-then display "you've chosen $number"
+GIVEN THE CONSOLE APPLICATION IS OPENED
+WHEN YOU RUN IT
+WHEN IT SAYS "PLEASE SELECT AN OPTION:"
+WHEN THE USER TYPES IN A SELECTION AND PRESSES ENTER
+WHEN PRINT OUT "YOU'VE SELECTED NUMBERS $NUMBER-$NUMBERS" IS DISPLAYED
+WHEN ASKED TO "PLEASE PICK A NUMBER BETWEEN "$NUMBER" AND "$NUMBER"
+WHEN READ THE USERS NUMBER THEY ENTERED
+THEN DISPLAY "YOU'VE CHOSEN $NUMBER"
 
 
 //////////////////////////////////// end of task 2 ///////////////////////////////////
 
-Given task 1 is complete
-when ran and number you chose is displayed
-then ask "Would you like to see the results of this number compared to another with different mathematical expressions?"
+GIVEN TASK 1 IS COMPLETE
+WHEN RAN AND NUMBER YOU CHOSE IS DISAPLYED
+THEN ASK "WOULD YOU LIKE TO SEE THE RESULTS OF THIS NUMBER COMPARED TO ANOTHER WITH DIFFERENT MATHEMATICAL EXPRESSIONS?" 
 
-Given previous question asked,
-when answer is "no"
-then simply display "Ok, have a good day!"
+GIVEN PREVIOUS QUESTION ASKED,
+WHEN ANSWER IS "NO"
+THEN SIMPLY DISPLAY "OK, HAVE A GOOD DAY!"
 then return to the beginning options
 
 Given previous question asked,
@@ -111,10 +111,10 @@ Given the app options
 When the user types in option "A" (uppercase)
 then ensure that option a is still selected (hint: toLowercase())
 
-Given the app options
-When the user types in anything that isn't the single letter options
-then produce a message that says "please select a valid option"
-then reprint the please select message with options
+GIVEN THE APP OPTIONS
+WHEN THE USER TYPES IN ANYTHING THAT ISN'T THE SINGLE LETTER OPTIONS
+THEN PRODUCE A MESSAGE THAT SAYS "PLEASE SELECT A VALID OPTION"
+THEN REPRINT THE PLEASE SELECT MESSAGE WITH OPTIONS
 
 /////////////////////////
 
@@ -134,7 +134,7 @@ then ask the previoius question again
 
 
 
-
+Ignore this.  Testing github extension
 
 
 
