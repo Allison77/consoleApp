@@ -37,5 +37,25 @@ namespace MyTests
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
+
+        /// <summary>
+        /// type "testm" then press tab tab
+        /// </summary>
+
+        [TestMethod]
+        public void ReturningTheCorrectIntegerForFunMethod()
+        {
+            //Arrange
+            var a = 25;
+            var b = 10;
+            var expectedResult = a - b;
+            var myClass = new TestThing();
+
+            //Act
+            var result = myClass.ForFunMethod(a, b);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }

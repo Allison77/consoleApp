@@ -7,11 +7,8 @@ namespace AllisonFunProject
         static public void Main()
         {
             Console.WriteLine("Hello World");
-            Console.WriteLine("Please select an option:");
-            Console.WriteLine("(a) numbers 1-10");
-            Console.WriteLine("(b) numbers 10-20");
-            Console.WriteLine("(c) numbers 20-30");
-            Console.WriteLine("(d) numbers 30-40");
+            var whatever = new TestThing();
+            whatever.pleaseSelectAnOption();
 
             var letterSelected = Console.ReadLine();
 
@@ -60,26 +57,31 @@ namespace AllisonFunProject
             else
             {
                 Console.WriteLine("Please select a valid option");
-                Console.WriteLine("Please select an option:");
-                Console.WriteLine("(a) numbers 1-10");
-                Console.WriteLine("(b) numbers 10-20");
-                Console.WriteLine("(c) numbers 20-30");
-                Console.WriteLine("(d) numbers 30-40");
+                whatever.pleaseSelectAnOption();
             }
             {
 
                 Console.WriteLine("Would you like to see the results of this number compared to another with different matehmatical expressions? (yes/no)");
-                var answerEntered = Console.ReadLine();
+                var answerEntered = Console.ReadLine();                                                             
+                if ((answerEntered == "no") || (answerEntered == "n") || (answerEntered == "N") || (answerEntered == "NO"))
 
-                if (answerEntered == "no")
+                {                     
+                        Console.WriteLine("Ok, have a good day!");
+                        Console.WriteLine($"Hello World");
+                        whatever.pleaseSelectAnOption();
+                                 
+                }
+               if (answerEntered == "yes")
                 {
-                    Console.WriteLine("Ok, have a good day!");
-
+                    Console.WriteLine("Please pick another number between 1 and 100");
+                    String input = Console.ReadLine();
+                    int number;
+                    Int32.TryParse(input, out number);
+                    Console.WriteLine ("You've chosen "+ number);
                 }
 
-
             }
-                            
+
 
             // create another variable and name it something similar to the first with the addition of letting you know it will be the value in lower case
             // then set it equal to the other variable with the lowercase method               
@@ -99,6 +101,9 @@ namespace AllisonFunProject
 
 
         }
+
+
+
     }
 
 
@@ -107,8 +112,37 @@ namespace AllisonFunProject
     {
         public int ItAddsStuff(int a, int b)
         {
-            return a + b;
+            return a + b; 
         }
+
+        public void pleaseSelectAnOption()
+        {
+            Console.WriteLine("Please select an option:");
+            Console.WriteLine("(a) numbers 1-10");
+            Console.WriteLine("(b) numbers 10-20");
+            Console.WriteLine("(c) numbers 20-30");
+            Console.WriteLine("(d) numbers 30-40");
+        }
+
+
+        ///////////////////////////////////////////////////
+
+        public int ForFunMethod(int first, int second)
+        {
+            return first - second;
+        }
+
+
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////////////
+
     }
 
     class program
