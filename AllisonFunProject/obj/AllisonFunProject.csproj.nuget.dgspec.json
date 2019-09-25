@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
+    "C:\\Users\\capnp\\Source\\Repos\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
+    "C:\\Users\\capnp\\Source\\Repos\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "projectUniqueName": "C:\\Users\\capnp\\Source\\Repos\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
         "projectName": "AllisonFunProject",
-        "projectPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
-        "packagesPath": "C:\\Users\\allison.redding\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Personal\\consoleApp\\AllisonFunProject\\obj\\",
+        "projectPath": "C:\\Users\\capnp\\Source\\Repos\\consoleApp\\AllisonFunProject\\AllisonFunProject.csproj",
+        "packagesPath": "C:\\Users\\capnp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\capnp\\Source\\Repos\\consoleApp\\AllisonFunProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\allison.redding\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\capnp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -40,18 +42,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "dependencies": {
-            "GitHub": {
-              "target": "Package",
-              "version": "[1.13.2, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461"
           ],
