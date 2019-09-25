@@ -10,7 +10,7 @@ namespace AllisonFunProject
             var whatever = new TestThing();
             whatever.pleaseSelectAnOption();
 
-            var letterSelected = Console.ReadLine();
+            var letterSelected = Console.ReadLine().ToLower();
 
             if (letterSelected == "a" || letterSelected == "A")
             {
@@ -62,16 +62,17 @@ namespace AllisonFunProject
             {
 
                 Console.WriteLine("Would you like to see the results of this number compared to another with different matehmatical expressions? (yes/no)");
-                var answerEntered = Console.ReadLine();                                                             
-                if ((answerEntered == "no") || (answerEntered == "n") || (answerEntered == "N") || (answerEntered == "NO"))
-
+                var answerEntered = Console.ReadLine();                  
+				if(answerEntered.ToLower() == "no" || answerEntered.ToLower() == "n")
+                //if ((answerEntered == "no") || (answerEntered == "n") || (answerEntered == "N") || (answerEntered == "NO"))
+                    //HELP I Know there has to be an easier way instead of listing each one out!
                 {                     
                         Console.WriteLine("Ok, have a good day!");
                         Console.WriteLine($"Hello World");
                         whatever.pleaseSelectAnOption();
                                  
                 }
-               if (answerEntered == "yes")
+               if (answerEntered.ToLower() == "yes" || answerEntered.ToLower() == "y")
                 {
                     Console.WriteLine("Please pick another number between 1 and 100");
                     String input = Console.ReadLine();
@@ -80,7 +81,47 @@ namespace AllisonFunProject
                     Console.WriteLine ("You've chosen "+ number);
                 }
 
+
+				//var number = 10;
+				//if (number == 10) { blah}
+				//  else if (number < 11) { }
+				//else { stuff}
+
+				//String[] myStrings = {
+				//	"test",
+				//	"blah",
+				//	"nfienfinewif"
+				//};
+
+				//foreach (var item in myStrings)
+				//{
+				//	if (item == "blah") { do stuff};
+				//}
+
+
+
+
+
+				///////////////dont care as much
+
+
+				//myStrings.forEach(x => { if (x == "blah") { do stuff} });
+
+				//for (int i = 0; i < myStrings.Length; i++)
+				//{
+				//	//i == 0 and while it is less than the length of myStrings array do stuff
+				//	Console.WriteLine(myStrings[i]);
+				//}
+
+				//while (i < 4)
+				//{
+				//	do stuff
+				//		i++; // short way of saying i = i + 1;	
+				//}
+
             }
+
+
 
 
             // create another variable and name it something similar to the first with the addition of letting you know it will be the value in lower case
@@ -118,10 +159,10 @@ namespace AllisonFunProject
         public void pleaseSelectAnOption()
         {
             Console.WriteLine("Please select an option:");
-            Console.WriteLine("(a) numbers 1-10");
-            Console.WriteLine("(b) numbers 10-20");
-            Console.WriteLine("(c) numbers 20-30");
-            Console.WriteLine("(d) numbers 30-40");
+            Console.WriteLine("(A) NUMBERS 1-10");
+            Console.WriteLine("(B) NUMBERS 10-20");
+            Console.WriteLine("(C) NUMBERS 20-30");
+            Console.WriteLine("(D) NUMBERS 30-40");
         }
 
 
